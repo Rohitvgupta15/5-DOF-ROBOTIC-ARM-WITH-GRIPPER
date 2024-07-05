@@ -81,20 +81,6 @@ The system architecture includes several key components and nodes working togeth
       rosrun rosserial_python serial_node.py _port:=/dev/ttyUSB0 _baud:=115200  
 ```
 
-## Results and Observations
-
-After launching the project, you should be able to control the robotic arm using ROS commands and observe its movements in RViz. The integration with MoveIt allows for advanced motion planning and execution.
-
-## Future Enhancements
-
-1. **Integrate Camera with ROS**: Add a camera to the robotic arm for visual feedback.
-2. **Object Detection and Localization**: Implement object detection and localization algorithms.
-3. **Real-time Training and Operation**: Develop real-time training and operation functionalities for more complex tasks.
-
-## References
-
-- ROS Noetic [Installation Guide](http://wiki.ros.org/noetic/Installation/Ubuntu)
-- MoveIt [Installation Guide](https://moveit.ros.org/install/)
 
 ## License
 
