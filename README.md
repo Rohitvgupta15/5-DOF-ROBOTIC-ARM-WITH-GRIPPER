@@ -1,5 +1,3 @@
-# 5-DOF-ROBOTIC-ARM-WITH-GRIPPER
-
 # 5-DOF Robotic Arm with Gripper using ROS
 
 This project presents the development of a 5-Degree-of-Freedom (5-DOF) robotic arm with a gripper, utilizing the Robot Operating System (ROS). The system is constructed with an Arduino connected to a laptop running Ubuntu, where ROS is installed. The integration of the MoveIt plugin in ROS facilitates the arm's operation, and pick-and-place functionalities are implemented through Python code.
