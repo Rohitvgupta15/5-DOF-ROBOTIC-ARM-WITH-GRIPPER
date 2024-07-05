@@ -81,7 +81,3 @@ The system architecture includes several key components and nodes working togeth
       rosrun rosserial_python serial_node.py _port:=/dev/ttyUSB0 _baud:=115200  
 ```
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
