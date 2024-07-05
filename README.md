@@ -39,8 +39,8 @@ The system architecture includes several key components and nodes working togeth
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/robotic-arm-ros.git
-    cd robotic-arm-ros
+    git clone https://github.com/Rohitvgupta15/5-DOF-ROBOTIC-ARM-WITH-GRIPPER.git
+    cd robotic_arm
     ```
 
 2. **Build the Workspace**
@@ -51,7 +51,7 @@ The system architecture includes several key components and nodes working togeth
 
 3. **Launch the Nodes**
     ```bash
-    roslaunch robotic_arm_ros robotic_arm.launch
+    roslaunch arm_5dof_description display.launch
     ```
 
 ### With MoveIt Package
@@ -67,7 +67,7 @@ The system architecture includes several key components and nodes working togeth
 
 3. **Launch MoveIt**
     ```bash
-    roslaunch robotic_arm_moveit_config demo.launch
+    roslaunch moveit_pkg demo.launch
     ```
 
 ### Integrating with Hardware
@@ -78,8 +78,8 @@ The system architecture includes several key components and nodes working togeth
 
 2. **Launch the ROS Nodes with Hardware Integration**
     ```bash
-    roslaunch robotic_arm_ros robotic_arm_hardware.launch
-    ```
+      rosrun rosserial_python serial_node.py _port:=/dev/ttyUSB0 _baud:=115200  
+```
 
 ## Results and Observations
 
